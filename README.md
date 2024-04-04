@@ -80,3 +80,8 @@ CREATE UNIQUE INDEX "attendees_event_id_email_key" ON "attendees"("event_id", "e
 -- CreateIndex
 CREATE UNIQUE INDEX "check_ins_attendeeId_key" ON "check_ins"("attendeeId");
 ```
+
+> Deixa eu adicionar alguns detalhes aqui!!!
+* Este peojeto não é um fork, são aulas disponibilizadas pela Rocketseat gratuitamente, mas com um padrão altíssimo de qualidade, principalmente considerando que foram apenas 3 aulas, 3 longas noites!!!
+
+* Aprendi muito e tenho muito que aprender ainda, mas foi um passo importante para dar um início no meu aprendizado de NodeJS e seu ecossistema.
