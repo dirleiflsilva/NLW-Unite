@@ -1,0 +1,30 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Novo evento 2",
+    "details": null,
+    "maximumAttendees": 1
+}
+
+###
+POST http://localhost:3333/events/d5e766b3-d365-4d6f-8aec-f406f455ec69/attendees
+Content-Type: application/json
+
+{
+    "name": "Dirlei Friedrich",
+    "email": "dirleiflsilva@codidados.com.br"
+}
+
+###
+GET http://localhost:3333/events/8340d3d5-aa0e-423f-be86-98749a7e920b
+
+###
+GET http://localhost:3333/attendees/2/badge
+
+###
+GET http://localhost:3333/attendees/3/check-in
+
+###
+
+GET http://localhost:3333/events/8340d3d5-aa0e-423f-be86-98749a7e920b/attendees?query=dirlei
